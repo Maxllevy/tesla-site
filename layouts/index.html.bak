@@ -1,0 +1,38 @@
+<!-- layouts/index.html -->
+{{ define "main" }}
+<div class="container">
+    <div class="hero">
+        <h1>{{ .Site.Title }}</h1>
+        <h2>{{ .Site.Params.subtitle | default "Exploring Electric Vehicle Innovation" }}</h2>
+        
+        {{ if .Site.Params.homeImage }}
+        <img src="{{ .Site.Params.homeImage }}" alt="Tesla Hero Image" class="hero-image">
+        {{ else }}
+        <div class="placeholder-image">
+            <!-- Placeholder styling for when no image is defined -->
+        </div>
+        {{ end }}
+        
+        <div class="hero-content">
+            {{ .Site.Params.homeText | markdownify }}
+        </div>
+    </div>
+    
+    <div class="featured-content">
+        <h3>Latest Articles</h3>
+        <div class="post-grid">
+            {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts") }}
+            {{ range first 3 $paginator.Pages }}
+            <div class="post-card">
+                <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                <div class="post-meta">
+                    <span class="post-date">{{ .Date.Format "January 2, 2006" }}</span>
+                </div>
+                <p>{{ .Summary }}</p>
+                <a href="{{ .Permalink }}" class="read-more">Read More →</a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

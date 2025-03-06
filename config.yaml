@@ -1,0 +1,82 @@
+baseURL: "http://localhost:1313/"
+languageCode: "en-us"
+title: "Tesla"
+paginate: 5
+theme: "Papermod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minifyOutput: true
+
+params:
+  env: "production"
+  title: "Tesla"
+  description: "A site about Tesla technologies and innovations"
+  keywords: ["Tesla", "Electric Cars", "Sustainable Energy", "Technology"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: "auto"
+  disableThemeToggle: false
+  
+  # Custom home page parameters
+  subtitle: "Driving the Future of Sustainable Energy"
+  homeText: |
+    Welcome to our Tesla fan site, where we explore the cutting-edge technologies 
+    and innovations that are redefining transportation and clean energy.
+    
+    From revolutionary electric vehicles to solar solutions and energy storage,
+    we cover everything in the Tesla ecosystem.
+  
+  # Original PaperMod parameters
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  label:
+    text: "Tesla"
+
+  profileMode:
+    enabled: false
+
+  socialIcons:
+    - name: "twitter"
+      url: "https://twitter.com/"
+    - name: "github"
+      url: "https://github.com/Maxllevy"
+
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 1
+    - identifier: "posts"
+      name: "Posts"
+      url: "/posts/"
+      weight: 2
+    - identifier: "categories"
+      name: "Categories"
+      url: "/categories/"
+      weight: 3
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 4
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 5

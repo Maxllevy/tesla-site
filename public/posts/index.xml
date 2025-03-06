@@ -1,19 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on My New Hugo Site</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post on Tesla</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Welcome to my new Hugo site about Tesla!&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Tesla</title><link>http://localhost:1313/posts/</link><description>Recent content in Posts on Tesla</description><generator>Hugo -- 0.139.4</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>ETFs That Don't Include Tesla</title><link>http://localhost:1313/posts/etf/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/etf/</guid><description>&lt;h1 id="etfs-that-dont-include-tesla">ETFs that don&amp;rsquo;t include Tesla&lt;/h1>
+&lt;p>For investors looking to gain market exposure without Tesla in their portfolio, several ETF options exist:&lt;/p>
+&lt;h2 id="chgx---axs-change-finance-esg-etf">CHGX - AXS Change Finance ESG ETF&lt;/h2>
+&lt;p>People are more concerned about investing in good companies and avoiding those engaged in activities harmful to people and the planet. As shareholders, they can seek long-term growth while doing their part to change the world for the better. CHGX makes that possible.&lt;/p></description></item><item><title>List of Musk Companies</title><link>http://localhost:1313/posts/musk-companies/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/musk-companies/</guid><description>&lt;h2 id="list-of-musk-companies">List of Musk Companies&lt;/h2>
+&lt;ul>
+&lt;li>CEO and product architect of Tesla, Inc.
+&lt;ul>
+&lt;li>Tesla, Inc. (TSLA)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Founder, CEO, and chief engineer of SpaceX
+&lt;ul>
+&lt;li>Private company, not publicly traded&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Owner, CTO and executive chairman of X (formerly Twitter) - X Corp.
+&lt;ul>
+&lt;li>Twitter&amp;rsquo;s stock symbol was TWTR, but the company is now private and its stock is not publicly traded&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Founder of the Boring Company
+&lt;ul>
+&lt;li>Private company, not publicly traded&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>xAI
+&lt;ul>
+&lt;li>Private company, not publicly traded&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Co-founder of Neuralink
+&lt;ul>
+&lt;li>Private company, not publicly traded&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>S&amp;P 500 &amp; Tesla Investment FAQ</title><link>http://localhost:1313/posts/questions/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/questions/</guid><description>&lt;h2 id="musk-companies-in-major-indices">Musk Companies in Major Indices&lt;/h2>
+&lt;p>&lt;strong>Q: Which Musk companies are in the S&amp;amp;P 500?&lt;/strong>&lt;br>
+A: Tesla, Inc. (TSLA)&lt;/p>
+&lt;h2 id="retirement-fund-exposure">Retirement Fund Exposure&lt;/h2>
+&lt;p>&lt;strong>Q: What are the popular funds that people put retirement into (e.g., IRA and 401k) and what is the exposure to TSLA?&lt;/strong>&lt;br>
+A: The top 6 ETFs hold over 293 million TSLA shares, currently valued at $99 billion and representing 9.13% of TSLA&amp;rsquo;s market cap.&lt;/p>
+&lt;h2 id="sp-500-alternatives-without-tesla">S&amp;amp;P 500 Alternatives Without Tesla&lt;/h2>
+&lt;p>&lt;strong>Q: Is there an ETF that behaves like the S&amp;amp;P with no Musk?&lt;/strong>&lt;/p></description></item><item><title>Tax Treatment of Retirement and College Accounts</title><link>http://localhost:1313/posts/taxes/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/taxes/</guid><description>&lt;h1 id="how-do-taxes-work-with-retirement-and-college-accounts">How do taxes work with retirement and college accounts?&lt;/h1>
+&lt;p>One of the benefits of retirement and college accounts—like IRAs and 529 accounts—is that the tax treatment of the money you earn is a little different. In many cases, you won&amp;rsquo;t owe taxes on earnings until you take the money out of the account—or, depending on the type of account, ever.&lt;/p>
+&lt;p>This special tax treatment gives these accounts a significant advantage over regular taxable investment accounts, where you typically need to pay taxes on dividends, interest, and capital gains in the year you receive them.&lt;/p></description></item></channel></rss>
